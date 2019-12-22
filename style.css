@@ -7,6 +7,7 @@ body {
   font-family:  'Open Sans',sans-serif;
   font-size: 1em;
   color: #f9fafe;
+  overflow: hidden;
 }
 .btn {
   border: 1px solid #bdbdbd!important;
