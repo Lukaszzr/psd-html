@@ -7,7 +7,6 @@ body {
   font-family:  'Open Sans',sans-serif;
   font-size: 1em;
   color: #f9fafe;
-  overflow: hidden;
 }
 .btn {
   border: 1px solid #bdbdbd!important;
@@ -121,6 +120,11 @@ color:#a8a8a8;
 .header-content .header-input{
   width:80%
 }
+}
+@media (max-width:760px){
+.header-content .header-input{
+  margin-top: 200px;
+  }
 }
 @media (max-width:560px){
   .header-content .header-input,.header-content .form-control,
